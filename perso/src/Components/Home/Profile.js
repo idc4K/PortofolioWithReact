@@ -51,10 +51,16 @@ export default function Profile() {
                                 ]}
                             />
                         </h1>
-                        <span>
+                        <span className="profile-role-tagline">
                             Knack of building application with front end and back end operations.
                         </span>
                     </span>
+                </div>
+                <div className='profile-options'>
+                        <button className='btn btn-primary'>
+                            {""}
+                            Hire Me{""}
+                        </button>
                 </div>
             </div>
         </div>
