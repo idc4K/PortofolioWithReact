@@ -51,6 +51,9 @@ export default function Profile() {
                                 ]}
                             />
                         </h1>
+                        <span>
+                            Knack of building application with front end and back end operations.
+                        </span>
                     </span>
                 </div>
             </div>
