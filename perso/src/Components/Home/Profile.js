@@ -7,21 +7,24 @@ export default function Profile() {
         <div className='profile-parent'>
             <div className='profile-details'>
                 <div className='cols'>
-                    <a href='#'>
-                        <i className='fa fa-facebook-square'></i>
-                    </a>
-                    <a href='#'>
-                        <i className='fa fa-instagram'></i>
-                    </a>
-                    <a href='#'>
-                        <i className='fa fa-google-plus-square'></i>
-                    </a>
-                    <a href='#'>
-                        <i className='fa fa-linkedin'></i>
-                    </a>
-                    <a href='#'>
-                        <i className='fa fa-twitter'></i>
-                    </a>
+                    <div className="cols-icons">
+                        <a href='#'>
+                            <i className='fa fa-facebook-square'></i>
+                        </a>
+                        <a href='#'>
+                            <i className='fa fa-instagram'></i>
+                        </a>
+                        <a href='#'>
+                            <i className='fa fa-google-plus-square'></i>
+                        </a>
+                        <a href='#'>
+                            <i className='fa fa-linkedin'></i>
+                        </a>
+                        <a href='#'>
+                            <i className='fa fa-twitter'></i>
+                        </a>
+                    </div>
+                   
                 </div>
                 <div className='profile-details-name'>
                     <span className='primary-text'>
@@ -61,7 +64,14 @@ export default function Profile() {
                             {""}
                             Hire Me{""}
                         </button>
+                        <a href="Cv.pdf" download="idc Cv.pdf">
+                            <button className='btn vtn-highlighted-btn'>Get resume</button>
+                        </a>
+
                 </div>
+            </div>
+            <div className="profile-picture">
+               <div  className="profile-picture-background"></div>                     
             </div>
         </div>
     </div>
