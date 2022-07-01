@@ -1,7 +1,7 @@
 import React from 'react';
 import Typical from 'react-typical';
 import '../styles/index.css';
-import '../styles/Profile.css'
+import '../styles/Profile.css';
 
 export default function Profile() {
   return (
