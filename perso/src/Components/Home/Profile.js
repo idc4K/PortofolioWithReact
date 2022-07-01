@@ -1,5 +1,7 @@
 import React from 'react';
 import Typical from 'react-typical';
+import '../styles/index.css';
+import '../styles/Profile.css'
 
 export default function Profile() {
   return (
@@ -65,7 +67,7 @@ export default function Profile() {
                             Hire Me{""}
                         </button>
                         <a href="Cv.pdf" download="idc Cv.pdf">
-                            <button className='btn vtn-highlighted-btn'>Get resume</button>
+                            <button className='btn highlighted-btn'>Get resume</button>
                         </a>
 
                 </div>
