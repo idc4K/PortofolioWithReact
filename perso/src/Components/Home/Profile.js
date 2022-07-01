@@ -31,7 +31,7 @@ export default function Profile() {
                 <div className='profile-details-name'>
                     <span className='primary-text'>
                         {" "}
-                        <p style={{color: 'black'}}>Hello, I'M <span className="name">christ</span></p>
+                        <p>Hello, I'M <span className="name">christ</span></p>
                     </span>
                 </div>
                 <div className='profile-details-role'>
