@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@react-rxjs/core": "^0.9.8",
     "@react-rxjs/utils": "^0.9.5",
     "@testing-library/jest-dom": "^5.16.4",
