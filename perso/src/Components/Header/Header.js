@@ -17,6 +17,35 @@ export default function Header() {
     return;
   }
   let currentScreenSubscription =ScrollService.currenScreenBroadCaster.subscribe(updateCurrentScreen);
+
+  const getHeaderOptions = ()=>{
+    return(
+      Home.map((screen,i)=>(
+        <div key={screen.Home} className={getHeaderOptionsClass(i)}
+         onClik={()=> switchScreen(i,screen)}>
+          <span>{screen.Home}</span>
+        </div>
+      ))
+    )
+  }
+
+  const getHeaderOptionsClass = (index)=>{
+    let classes = "header-option";
+    if(index<Home.length -1)
+    classes +="header-option-separator";
+
+    if(selectedScreen === index)
+    classes += "selected-header-option"
+    return;
+
+  }
+
+  const switchScreen = (index,screen)=>{
+    let screenComponent = document.getElementById(screen.Home)
+    if(!screenComponent) return;
+
+    screenComponent.scrollIntoView({behavior: "smooth"})
+  }
   return (
     <div className='header-container'>
 
