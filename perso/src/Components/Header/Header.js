@@ -1,7 +1,6 @@
 import React,{useState} from 'react';
-import ScrollService from './ScrollService/ScrollService';
 import {faBars} from '@fortawesome/free-solid-svg-icons';
-import {FontAwesoneIcon} from '@fortawesome/react-fontawesome';
+import FontAwesoneIcon from '@fortawesome/react-fontawesome';
 import '../styles/Header.css';
 import Home from '../Home/Home';
 
@@ -16,7 +15,7 @@ export default function Header() {
     if(screenIndex<0)
     return;
   }
-  let currentScreenSubscription =ScrollService.currenScreenBroadCaster.subscribe(updateCurrentScreen);
+ 
 
   const getHeaderOptions = ()=>{
     return(
@@ -48,7 +47,20 @@ export default function Header() {
   }
   return (
     <div className='header-container'>
+        <div className="header-option" onClik={() => setShowHeaderOptions(!showHeaderOptions)}>
+            <div className="header-parent">
+              <div className="head-hamburger" onClick={() => setShowHeaderOptions(!showHeaderOptions)}>
+                  <FontAwesoneIcon className="header-hamburger-bars" icon={faBars}/>
+              </div>
 
+              <div className="header-logo">
+                <span>IDC</span>
+              </div>
+              <div className={(showHeaderOptions)? "header-options show-hamburger-options":"header-option"}>
+                  {getHeaderOptions}
+              </div>
+            </div>
+        </div>
     </div>
   )
 }
