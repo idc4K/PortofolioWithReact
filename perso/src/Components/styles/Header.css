@@ -8,3 +8,9 @@
 .navbar-logo-centered .navbar-nav .nav-link{
     padding: 1em 2em;
 }
+p {
+    color: white;
+}
+p:hover{
+    color: grey;
+}

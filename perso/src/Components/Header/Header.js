@@ -47,8 +47,8 @@ export default function Header() {
   //   screenComponent.scrollIntoView({behavior: "smooth"})
   // }
   return (
-    <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundColor : "pink"}}>
-      <Link className="navbar-brand d-lg-none" to="/">IDC4K</Link>
+    <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundColor : "#011B29"}}>
+      <Link className="navbar-brand d-lg-none text" to="/" ><p>IDC4K</p></Link>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler7"
         aria-controls="myNavbarToggler7" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
@@ -56,23 +56,23 @@ export default function Header() {
     <div className="collapse navbar-collapse" id="myNavbarToggler7">
         <ul className="navbar-nav mx-auto">
             <li className="nav-item">
-                <Link className="nav-link" to="/">Présentation</Link>
+                <Link className="nav-link text" to="/"><p>Présentation</p></Link>
             </li>
             <li className="nav-item">
-                <Link className="nav-link" to="/formation">Formation</Link>
+                <Link className="nav-link text" to="/formation"><p>Formation</p></Link>
             </li>
             <li className="nav-item">
-                <Link className="nav-link" to="/competence">Compétences</Link>
+                <Link className="nav-link text" to="/competence"><p>Compétences</p></Link>
             </li>
-            <a className="d-none d-lg-block" to="/">IDC4k</a>
+            <a className="d-none d-lg-block text" to="/"><p>IDC4k</p></a>
             <li className="nav-item">
-                <Link className="nav-link" to="/experiences">Expériences</Link>
-            </li>
-            <li className="nav-item">
-                <Link className="nav-link" to="realisation">Realisations</Link>
+                <Link className="nav-link text" to="/experiences"><p>Expériences</p></Link>
             </li>
             <li className="nav-item">
-                <Link className="nav-link" to="/contact">Contact</Link>
+                <Link className="nav-link text" to="realisation"><p>Realisations</p></Link>
+            </li>
+            <li className="nav-item">
+                <Link className="nav-link text" to="/contact"><p>Contact</p></Link>
             </li>
         </ul>
     </div>
