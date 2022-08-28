@@ -2,7 +2,7 @@ import React from 'react';
 import Typical from 'react-typical';
 import '../styles/index.css';
 import '../styles/Profile.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 export default function Profile() {
   return (
     <div className='profile-container'>
@@ -67,7 +67,7 @@ export default function Profile() {
                             Hire Me{""}
                         </button>
                         <a href="Cv.pdf" download="idc Cv.pdf">
-                            <button className='btn highlighted-btn'>Get resume</button>
+                            <button className='btn btn-danger'>Get resume</button>
                         </a>
 
                 </div>
