@@ -64,7 +64,7 @@ export default function Profile() {
                 <div className='profile-options'>
                         <button className='btn btn-primary'>
                             {""}
-                            Hire Me{""}
+                            Contactez Moi{""}
                         </button>
                         <a href="Cv.pdf" download="idc Cv.pdf">
                             <button className='btn btn-danger'>Get resume</button>

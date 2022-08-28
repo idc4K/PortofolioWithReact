@@ -33,10 +33,10 @@
     font-size: 20px;
     font-family: cursive;
  }
- .profile-options .highlighted-btn{
+ .profile-options .btn-danger{
     margin: 0 0 0 28px;
  }
- .profile-options .highlighted-btn:hover{
+ .profile-options .btn-danger:hover{
     margin: 0 0 0 28px;
     background-color: cornsilk;
     color: #111;
