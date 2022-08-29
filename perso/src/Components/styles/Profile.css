@@ -5,6 +5,7 @@
     height: 10%;
     min-height: fit-content;
     justify-content: center;
+    margin-top: 3%;
    
     
 }
@@ -116,7 +117,7 @@
     .profile-details{
         margin: 25px 0 0 0;
     }
-    .profile-options .highlighted-btn{
+    .profile-options .btn-danger{
        margin: 0 !important; 
     }
     .profile-details,.profile-options{
