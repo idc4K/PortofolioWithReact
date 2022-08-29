@@ -5,7 +5,7 @@ import FontAwesoneIcon from '@fortawesome/react-fontawesome';
 import '../styles/Header.css';
 import { bounce } from 'react-animations';
 import styled, { keyframes } from 'styled-components';
-import { Link } from 'react-router-dom';
+import { Link,NavLink } from 'react-router-dom';
 export default function Header() {
   // const [selectedScreen,setSelectedScreen] = useState(0)
   // const [showHeaderOptions,setShowHeaderOptions] = useState(false)
@@ -59,23 +59,23 @@ export default function Header() {
     <div className="collapse navbar-collapse" id="myNavbarToggler7">
         <ul className="navbar-nav mx-auto">
             <li className="nav-item">
-                <Link className="nav-link text" to="/"><p>Présentation</p></Link>
+                <NavLink className="nav-link text" to="/"><p>Présentation</p></NavLink>
             </li>
             <li className="nav-item">
-                <Link className="nav-link text" to="/formation"><p>Formation</p></Link>
+                <NavLink className="nav-link text" to="/formation"><p>Formation</p></NavLink>
             </li>
             <li className="nav-item">
-                <Link className="nav-link text" to="/competence"><p>Compétences</p></Link>
+                <NavLink className="nav-link text" to="/competence"><p>Compétences</p></NavLink>
             </li>
             <Link className="d-none d-lg-block text" to="/" style={{textDecoration: "none"}} id="style"><Bounce><p>IDC4k</p></Bounce></Link>
             <li className="nav-item">
-                <Link className="nav-link text" to="/experiences"><p>Expériences</p></Link>
+                <NavLink className="nav-link text" to="/experiences"><p>Expériences</p></NavLink>
             </li>
             <li className="nav-item">
-                <Link className="nav-link text" to="realisation"><p>Realisations</p></Link>
+                <NavLink className="nav-link text" to="realisation"><p>Realisations</p></NavLink>
             </li>
             <li className="nav-item">
-                <Link className="nav-link text" to="/contact"><p>Contact</p></Link>
+                <NavLink className="nav-link text" to="/contact"><p>Contact</p></NavLink>
             </li>
         </ul>
     </div>

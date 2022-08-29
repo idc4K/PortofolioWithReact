@@ -10,7 +10,10 @@
 }
 p {
     color: white;
-    /* border-bottom: 1px solid white; */
+    
+}
+.active{
+    border-bottom: 1px solid white;
 }
 p:hover{
     color: grey;
