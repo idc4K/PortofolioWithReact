@@ -42,7 +42,7 @@ export default function Profile() {
                             <Typical
                                 loops={Infinity}
                                 steps={[
-                                    "Enhousiastic Dev ",
+                                    "Mern Dev",
                                     3000,
 
                                     "Full Stack Dev",
@@ -57,7 +57,7 @@ export default function Profile() {
                             />
                         </h1>
                         <span className="profile-role-tagline">
-                            Knack of building application with front end and back end operations.
+                        Habileté à créer des applications web/moible et pestesting des systèmes d'information.
                         </span>
                     </span>
                 </div>

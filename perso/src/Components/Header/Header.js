@@ -51,7 +51,7 @@ export default function Header() {
   const Bounce = styled.div`animation:4s ${keyframes `${bounce}` } infinite`;
   return (
     <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundColor : "#011B29"}}>
-      <Link className="navbar-brand d-lg-none text" to="/" ><Bounce><p>IDC4K</p></Bounce></Link>
+      <Link className="navbar-brand d-lg-none text" to="/" style={{textDecoration: "none"}} id="style"><div style={{border: "1px solid #333333", width:"120px",heigth:"110px"}} className="logo"><p style={{marginTop:"10px",fontFamily:'Just Another Hand,cursive'}}>IDC4k</p></div></Link>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler7"
         aria-controls="myNavbarToggler7" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
@@ -67,7 +67,7 @@ export default function Header() {
             <li className="nav-item">
                 <NavLink className="nav-link text" to="/competence"><p>Compétences</p></NavLink>
             </li>
-            <Link className="d-none d-lg-block text" to="/" style={{textDecoration: "none"}} id="style"><Bounce><p>IDC4k</p></Bounce></Link>
+            <Link className="d-none d-lg-block text" to="/" style={{textDecoration: "none"}} id="style"><Bounce><div style={{border: "1px solid #333333", width:"120px",heigth:"110px"}} className="logo"><p style={{marginTop:"10px",fontFamily:'Just Another Hand,cursive'}}>IDC4k</p></div></Bounce></Link>
             <li className="nav-item">
                 <NavLink className="nav-link text" to="/experiences"><p>Expériences</p></NavLink>
             </li>
