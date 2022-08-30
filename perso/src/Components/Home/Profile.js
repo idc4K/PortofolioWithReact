@@ -31,7 +31,7 @@ export default function Profile() {
                 <div className='profile-details-name'>
                     <span className='primary-text'>
                         {" "}
-                        <p>Hello, I'M <span className="name">christ</span></p>
+                        <p>Salut, Je suis <span className="name">Christ Ikonga</span></p>
                     </span>
                 </div>
                 <div className='profile-details-role'>
@@ -67,7 +67,7 @@ export default function Profile() {
                             Contactez Moi{""}
                         </button>
                         <a href="Cv.pdf" download="idc Cv.pdf">
-                            <button className='btn btn-danger'>Get resume</button>
+                            <button className='btn btn-danger'>Téléchager Cv</button>
                         </a>
 
                 </div>
